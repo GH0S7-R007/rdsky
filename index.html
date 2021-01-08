@@ -114,6 +114,12 @@ document.getElementById('clockbox').innerHTML=clocktext;
 GetClock();
 setInterval(GetClock,1000);
 </script>
+ <script>
+function getIP(json) {
+  alert("You are from out of Redsky Network, Admin noticed your IP : " + json.ip);
+}
+</script>
+<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 
  
 </body></html>
