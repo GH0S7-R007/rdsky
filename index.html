@@ -1,7 +1,7 @@
 <html>
 <title>Redsky user kit</title>
-<head><h1><marquee>Welcome:Vishnu Madhavancheril</marquee></h1></blink></head>
-<body style="background-color:black;">
+<head></head>
+<body style="background-color:White;">
  <head>
 <style>
 .button {
@@ -16,6 +16,7 @@
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  width: 40%;
 }
 
 .button1 {
@@ -69,46 +70,41 @@
   background-color: #555555;
   color: white;
 }
+table, th, td 
+  border: 1px solid yellow;
+  padding: 5px;
+}
+table {
+  border-spacing: 15px;
+}
+ body {
+  background-color: red 
+}
+
 </style>
 </head>
 <style>
 h1 { color:white
  }
- h2 
- { color:#5af533
+p { color:Black;
  }
-</style>
-<body><center><img src="pics/red.png" alt="cdc update" width="100" height="100"><br>
-<h2 style="font-size:80px;">The Procedure Book</h2></b><br>
- 
-<body>
- <a href="zoho.html"><button class="button button1" onclick="alert('Confirm the deatis twice before coverting in zoho.')">About Rdsky Technologies.</button>
- <a href="jar.html"><button class="button button1" onclick="alert('Are you trying to onboard Store?')">Onboarding & Troubleshooting.</button>
-  <a href="dda.html"><button class="button button2" onclick="alert('Do DDA from store and your side too')">Store Pitching and General FAQs.</button><br>
-<div id="clockbox"></div>
-
-<script type="text/javascript">
-var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
-
-
-var d=new Date();
-var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
-var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
-
-if(nhour==0){ap=" AM";nhour=12;}
-else if(nhour<12){ap=" AM";}
-else if(nhour==12){ap=" PM";}
-else if(nhour>12){ap=" PM";nhour-=12;}
-
-if(nmin<=9) nmin="0"+nmin;
-if(nsec<=9) nsec="0"+nsec;
-
-var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
-document.getElementById('clockbox').innerHTML=clocktext;
+ h2 
+ { color:Red;
+ position: absolute;
+  left: 700px;
+  top: 20px;
+ }
+img{
+position: absolute;
+  left: 520px;
+  top: 60px;
 }
-
-
-setInterval(GetClock,1000);
-</script>
+</style>
+<body>
+<img src="pics/red.png" width="100" height="100">
+<h2 style="font-size:60px;">Redsky Hand Book</h2></b><br></d></div></div><br><br><br><br><br><br><br><br><br><br><center>
+<body>
+ <a href="about.html"><button class="button button1" onclick="alert">About Rdsky Technologies.</button>
+ <a href="onbo.html"><button class="button button1" onclick="alert">Onboarding & Troubleshooting.</button>
+  <a href="pitch.html"><button class="button button2" onclick="alert">Store Pitching and General FAQs.</button><br>
 </body></html>
